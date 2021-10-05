@@ -1,4 +1,59 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:rgb(34, 33, 33);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color:rgb(85, 83, 83);
+    font-family: Verdana, Helvetica, sans-serif;
+    text-align:center;
+    
+}
 
+div.container{
+    margin:auto;
+    margin-top: 10px;
+    width:500px;
+    height:530px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    padding:20px;
+    border-radius: 15px;
+    background-color: #fff;}
+
+button.submit{
+    margin-top:20px;
+    padding:10px 30px;
+    text-decoration: none;
+}
+p.result, span.text{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+form label, form input {
+    display: table-cell;
+    margin-bottom: 10px;
+  }
+  
+
+input{
+    margin-left: 20px;
+    margin-top: 5px;
+    padding:5px  10px ;
+    border-radius:3px;
+
+}
+#principal{
+    margin-left:50px;
+}
+
+select#yrs{
+    padding:5px;
+    margin-left:20px;
+
+}
+
+span.fig{
+    background-color:"blue";
+}
 
